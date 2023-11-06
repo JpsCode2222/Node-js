@@ -1,0 +1,31 @@
+<form action="/save_student" method="post">
+    Student Name 
+    <input type="text" name="student_name">
+    <br> <br>
+    Student Mobile 
+    <input type="number" name="student_mobile">
+    <br> <br>
+    Student Email 
+    <input type="email" name="student_email">
+    <br> <br>
+    Student Password 
+    <input type="password" name="student_password">
+    <br> <br>
+    Student Gender
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female">Female
+    <input type="radio" name="gender" value="other">other
+    <br> <br>
+    Student Class
+    <select name="student_class">
+        <option>Choose</option>
+        <option>BCS</option>
+        <option>BCA</option>
+        <option>BE</option>
+        <option>BTEC</option>
+    </select>
+    <br> <br>
+    Student Address
+    <textarea name="student_address"></textarea>
+    <button>Submit</button>
+</form>

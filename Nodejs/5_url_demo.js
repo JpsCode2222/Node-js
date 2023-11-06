@@ -7,7 +7,7 @@ var url = require('url');
 
 var urldata = url.parse("https://domain.com/path?name=Jayad&mobile=8484848848",true);
 // decode whole url
-// console.log(urldata);
+console.log(urldata);
 
 // Check only pathname & query
 console.log(urldata.pathname);

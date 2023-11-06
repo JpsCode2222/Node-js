@@ -7,9 +7,9 @@ var add = function(){
 var num1 = 100;
 
 // function call inside another function
-// function calc(a){
-//     console.log(a());
-// }
+function calc(a){
+    console.log(a());
+}
 
 calc(function(){
     console.log("Adding");

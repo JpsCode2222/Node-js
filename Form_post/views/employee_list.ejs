@@ -1,0 +1,16 @@
+<table border="1">
+    <tr>
+        <th>SN</th>
+        <th>Name</th>
+        <th>Mobile</th>
+        <th>Email</th>
+    </tr>
+   <%for(var i=0; i<emp_list.length;i++) {%>
+    <tr>
+        <td><%=i+1%></td>
+        <td><%=emp_list[i].emp_name%></td>
+        <td><%=emp_list[i].emp_mobile%></td>
+        <td><%=emp_list[i].emp_email%></td>
+    </tr>
+    <%}%>
+</table>

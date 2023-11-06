@@ -1,4 +1,3 @@
-const { Module } = require("module");
 
 var add = function(a,b){
     console.log(a+b);
